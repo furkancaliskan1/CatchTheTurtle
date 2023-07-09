@@ -23,6 +23,7 @@ turtles.pendown()
 myTurtle = turtle.Turtle()
 myTurtle.color("Green","Green")
 myTurtle.shape("turtle")
+myTurtle.shapesize(3/2)
 myTurtle.left(90)
 myTurtle.penup()
 turtleList=[]
@@ -47,7 +48,7 @@ def count(t):
         time.sleep(0.4)
         t = t - 1
     else:
-        turtlew.write("Game over!",font=("calibri", 15, "normal")
+        turtlew.write("Game over!",font=("calibri", 15, "normal"))
 
 def get_score(x,y):
     global score
